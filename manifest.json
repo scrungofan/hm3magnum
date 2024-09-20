@@ -1,9 +1,73 @@
 {
-	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"version": "1.0.0",
+	"id": "invalid.44magnum",
+	"name": "Striker .44 Magnum",
+	"description": "Adds a revolver to the game, either replacing the striker or as an add-on",
+	"authors": [
+		"invalid"
+	],
+	"frameworkVersion": "2.0.0",
+	"localisation": {
+		"english": {
+			"ui_firearms_hero_revolver_44magnum_name": "Striker .44 Magnum",
+			"ui_firearms_hero_revolver_44magnum_desc": "U.S. made revolver chambered in .44 Magnum. Low rate of fire with very high damage."
+		}
+	},
+	"options": [
+		{
+			"name": "Animated",
+			"tooltip": "Use animated reload/firing. May occasionally break parts of the model.",
+			"type": "select",
+			"group": "Animated/Static",
+			"enabledByDefault": true,
+			"contentFolders": [
+				"options/animation/animated"
+			]
+		},
+		{
+			"name": "Static",
+			"tooltip": "Static model, no animations for reloads or firing.",
+			"type": "select",
+			"group": "Animated/Static",
+			"contentFolders": [
+				"options/animation/static"
+			]
+		},
+		{
+			"name": "Replace Striker",
+			"tooltip": "Replaces the striker with the revolver",
+			"image": "options/inventory/replace.png",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": [
+				"options/inventory/replace"
+			]
+		},
+		{
+			"name": "Replace El matador",
+			"tooltip": "Replaces El matador with the revolver",
+			"image": "options/inventory/replace.png",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": [
+				"options/inventory/matador"
+			]
+		},
+		{
+			"name": "Add-On",
+			"tooltip": "Adds the revolver as a new item",
+			"image": "options/inventory/addon.png",
+			"type": "checkbox",
+			"enabledByDefault": false,
+			"contentFolders": [
+				"options/inventory/addon"
+			]
+		}
+	],
+	"contentFolders": [
+		"base/cont"
+	],
+	"blobsFolders": [
+		"base/blobs"
+	]
 }

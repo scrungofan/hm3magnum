@@ -21,9 +21,7 @@
 			"DamageFar": 60.0,
 			"DamageMedium": 200.0,
 			"DamageNear": 200.0,
-			"MagazineConfigs": [
-				"659e8557-7ed7-4640-847b-a38370cc50de"
-			],
+			"MagazineConfigs": ["659e8557-7ed7-4640-847b-a38370cc50de"],
 			"ShotsPerMinute": 120.0,
 			"ReloadFactor": 0.75,
 			"ExtraPickupMagazines": 1.0,
@@ -35,9 +33,7 @@
 			"DamageFar": 60.0,
 			"DamageMedium": 200.0,
 			"DamageNear": 200.0,
-			"MagazineConfigs": [
-				"659e8557-7ed7-4640-847b-a38370cc50de"
-			],
+			"MagazineConfigs": ["659e8557-7ed7-4640-847b-a38370cc50de"],
 			"ShotsPerMinute": 120.0,
 			"ReloadFactor": 0.75,
 			"ExtraPickupMagazines": 1.0,
@@ -49,9 +45,7 @@
 			"DamageFar": 60.0,
 			"DamageMedium": 200.0,
 			"DamageNear": 140.0,
-			"MagazineConfigs": [
-				"659e8557-7ed7-4640-847b-a38370cc50de"
-			],
+			"MagazineConfigs": ["659e8557-7ed7-4640-847b-a38370cc50de"],
 			"ShotsPerMinute": 120.0,
 			"ReloadFactor": 0.75,
 			"ExtraPickupMagazines": 1.0,

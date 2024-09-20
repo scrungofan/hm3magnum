@@ -105,14 +105,14 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"exposedInterfaces": [
-				["ZModularFirearmConfigurator", "9211c86a5c056639"]
-			],
-			"inputCopying": [{
-				"whenTriggered": "ActivateShellFX",
-				"alsoTrigger": "Activate",
-				"onEntity": "12f1e093da8a3ee1"
-			}]
+			"exposedInterfaces": [["ZModularFirearmConfigurator", "9211c86a5c056639"]],
+			"inputCopying": [
+				{
+					"whenTriggered": "ActivateShellFX",
+					"alsoTrigger": "Activate",
+					"onEntity": "12f1e093da8a3ee1"
+				}
+			]
 		},
 		"abcd9ee9e1e378d8": {
 			"parent": "#",
@@ -141,11 +141,13 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "EventOccurred",
-				"shouldTrigger": "GetIndex",
-				"onEntity": "abcd9ee9e1e378d8"
-			}],
+			"events": [
+				{
+					"onEvent": "EventOccurred",
+					"shouldTrigger": "GetIndex",
+					"onEntity": "abcd9ee9e1e378d8"
+				}
+			],
 			"inputCopying": [],
 			"outputCopying": []
 		},

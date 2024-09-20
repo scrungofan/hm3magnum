@@ -171,62 +171,74 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"exposedInterfaces": [
-				["ZModularFirearmConfigurator", "9211c86a5c056639"]
-			],
-			"inputCopying": [{
-				"whenTriggered": "WeaponStartReload",
-				"alsoTrigger": "Start",
-				"onEntity": "abcd501ebf81d21b"
-			}, {
-				"whenTriggered": "MoveHammer",
-				"alsoTrigger": "Poll",
-				"onEntity": "abcd6c67e4bfdd33"
-			}, {
-				"whenTriggered": "ActivateShellFX",
-				"alsoTrigger": "Activate",
-				"onEntity": "12f1e093da8a3ee1"
-			}, {
-				"whenTriggered": "HideTrash",
-				"alsoTrigger": "MakeInvisible",
-				"onEntity": "abcdb1d5acba0336"
-			}, {
-				"whenTriggered": "HideTrash",
-				"alsoTrigger": "MakeInvisible",
-				"onEntity": "abcdbcddd2e81c9c"
-			}, {
-				"whenTriggered": "HideTrash",
-				"alsoTrigger": "MakeInvisible",
-				"onEntity": "abcdcfdabc0f0c1d"
-			}, {
-				"whenTriggered": "HideTrash",
-				"alsoTrigger": "MakeInvisible",
-				"onEntity": "abcdb0c5501b3564"
-			}, {
-				"whenTriggered": "HideTrash",
-				"alsoTrigger": "MakeInvisible",
-				"onEntity": "abcde0f71332133d"
-			}, {
-				"whenTriggered": "ShowTrash",
-				"alsoTrigger": "MakeVisible",
-				"onEntity": "abcdb1d5acba0336"
-			}, {
-				"whenTriggered": "ShowTrash",
-				"alsoTrigger": "MakeVisible",
-				"onEntity": "abcdbcddd2e81c9c"
-			}, {
-				"whenTriggered": "ShowTrash",
-				"alsoTrigger": "MakeVisible",
-				"onEntity": "abcdcfdabc0f0c1d"
-			}, {
-				"whenTriggered": "ShowTrash",
-				"alsoTrigger": "MakeVisible",
-				"onEntity": "abcdb0c5501b3564"
-			}, {
-				"whenTriggered": "ShowTrash",
-				"alsoTrigger": "MakeVisible",
-				"onEntity": "abcde0f71332133d"
-			}]
+			"exposedInterfaces": [["ZModularFirearmConfigurator", "9211c86a5c056639"]],
+			"inputCopying": [
+				{
+					"whenTriggered": "WeaponStartReload",
+					"alsoTrigger": "Start",
+					"onEntity": "abcd501ebf81d21b"
+				},
+				{
+					"whenTriggered": "MoveHammer",
+					"alsoTrigger": "Poll",
+					"onEntity": "abcd6c67e4bfdd33"
+				},
+				{
+					"whenTriggered": "ActivateShellFX",
+					"alsoTrigger": "Activate",
+					"onEntity": "12f1e093da8a3ee1"
+				},
+				{
+					"whenTriggered": "HideTrash",
+					"alsoTrigger": "MakeInvisible",
+					"onEntity": "abcdb1d5acba0336"
+				},
+				{
+					"whenTriggered": "HideTrash",
+					"alsoTrigger": "MakeInvisible",
+					"onEntity": "abcdbcddd2e81c9c"
+				},
+				{
+					"whenTriggered": "HideTrash",
+					"alsoTrigger": "MakeInvisible",
+					"onEntity": "abcdcfdabc0f0c1d"
+				},
+				{
+					"whenTriggered": "HideTrash",
+					"alsoTrigger": "MakeInvisible",
+					"onEntity": "abcdb0c5501b3564"
+				},
+				{
+					"whenTriggered": "HideTrash",
+					"alsoTrigger": "MakeInvisible",
+					"onEntity": "abcde0f71332133d"
+				},
+				{
+					"whenTriggered": "ShowTrash",
+					"alsoTrigger": "MakeVisible",
+					"onEntity": "abcdb1d5acba0336"
+				},
+				{
+					"whenTriggered": "ShowTrash",
+					"alsoTrigger": "MakeVisible",
+					"onEntity": "abcdbcddd2e81c9c"
+				},
+				{
+					"whenTriggered": "ShowTrash",
+					"alsoTrigger": "MakeVisible",
+					"onEntity": "abcdcfdabc0f0c1d"
+				},
+				{
+					"whenTriggered": "ShowTrash",
+					"alsoTrigger": "MakeVisible",
+					"onEntity": "abcdb0c5501b3564"
+				},
+				{
+					"whenTriggered": "ShowTrash",
+					"alsoTrigger": "MakeVisible",
+					"onEntity": "abcde0f71332133d"
+				}
+			]
 		},
 		"abcd9ee9e1e378d8": {
 			"parent": "#",
@@ -236,7 +248,17 @@
 			"properties": {
 				"m_aParents": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["12f1e093da8a3ee1", "41efba80cf73425e", "abcd47c82e7499a3", "abcd0562ef873d18", "abcd994e4f8b7297", "abcd82135799790a", "abcde8e9770046b9", "b00c430c6d5475f9", "abcd3753c77f3d1b"]
+					"value": [
+						"12f1e093da8a3ee1",
+						"41efba80cf73425e",
+						"abcd47c82e7499a3",
+						"abcd0562ef873d18",
+						"abcd994e4f8b7297",
+						"abcd82135799790a",
+						"abcde8e9770046b9",
+						"b00c430c6d5475f9",
+						"abcd3753c77f3d1b"
+					]
 				}
 			},
 			"postInitProperties": {},
@@ -255,11 +277,13 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "EventOccurred",
-				"shouldTrigger": "GetIndex",
-				"onEntity": "abcd9ee9e1e378d8"
-			}],
+			"events": [
+				{
+					"onEvent": "EventOccurred",
+					"shouldTrigger": "GetIndex",
+					"onEntity": "abcd9ee9e1e378d8"
+				}
+			],
 			"inputCopying": [],
 			"outputCopying": []
 		},
@@ -326,15 +350,18 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "TimeOut",
-				"shouldTrigger": "MakeVisible",
-				"onEntity": "abcdb1d5acba0336"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcda8093e707ebd"
-			}],
+			"events": [
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "MakeVisible",
+					"onEntity": "abcdb1d5acba0336"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcda8093e707ebd"
+				}
+			],
 			"outputCopying": []
 		},
 		"abcd3753c77f3d1b": {
@@ -421,39 +448,48 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Spawn",
-				"onEntity": "abcd47c82e7499a3"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Spawn",
-				"onEntity": "abcd0562ef873d18"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Spawn",
-				"onEntity": "abcd994e4f8b7297"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Spawn",
-				"onEntity": "abcd82135799790a"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Spawn",
-				"onEntity": "abcde8e9770046b9"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Spawn",
-				"onEntity": "b00c430c6d5475f9"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "MakeInvisible",
-				"onEntity": "abcdb1d5acba0336"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcdafa4cdb2862d"
-			}],
+			"events": [
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Spawn",
+					"onEntity": "abcd47c82e7499a3"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Spawn",
+					"onEntity": "abcd0562ef873d18"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Spawn",
+					"onEntity": "abcd994e4f8b7297"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Spawn",
+					"onEntity": "abcd82135799790a"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Spawn",
+					"onEntity": "abcde8e9770046b9"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Spawn",
+					"onEntity": "b00c430c6d5475f9"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "MakeInvisible",
+					"onEntity": "abcdb1d5acba0336"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcdafa4cdb2862d"
+				}
+			],
 			"outputCopying": []
 		},
 		"abcd568b7e2beae4": {
@@ -465,11 +501,13 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "EventOccurred",
-				"shouldTrigger": "Signal",
-				"onEntity": "abcd08ed01297cb0"
-			}],
+			"events": [
+				{
+					"onEvent": "EventOccurred",
+					"shouldTrigger": "Signal",
+					"onEntity": "abcd08ed01297cb0"
+				}
+			],
 			"inputCopying": [],
 			"outputCopying": []
 		},
@@ -491,71 +529,88 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "Out",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcdafa4cdb2862d"
-			}, {
-				"onEvent": "Out",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcda8093e707ebd"
-			}, {
-				"onEvent": "Out",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd3ff9cb85b856"
-			}, {
-				"onEvent": "Out",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcda93b07649dcd"
-			}, {
-				"onEvent": "Out",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcda5cd7fad5215"
-			}, {
-				"onEvent": "Out",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd4207e51a5061"
-			}, {
-				"onEvent": "Out",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd812d09e3a3ca"
-			}, {
-				"onEvent": "Out",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd7f1d543a9e3d"
-			}, {
-				"onEvent": "Out",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd50e30d89b86e"
-			}, {
-				"onEvent": "Out",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd8d0bc28a298b"
-			}, {
-				"onEvent": "Out",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd849c315702ac"
-			}, {
-				"onEvent": "Out",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd1a26524e07d7"
-			}, {
-				"onEvent": "Out",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd964cbb153daf"
-			}, {
-				"onEvent": "Out",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcdaf22e10744f8"
-			}, {
-				"onEvent": "Out",
-				"shouldTrigger": "MakeInvisible",
-				"onEntity": "abcdb1d5acba0336"
-			}, {
-				"onEvent": "Out",
-				"shouldTrigger": "MakeInvisible",
-				"onEntity": "abcdbcddd2e81c9c"
-			}],
+			"events": [
+				{
+					"onEvent": "Out",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcdafa4cdb2862d"
+				},
+				{
+					"onEvent": "Out",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcda8093e707ebd"
+				},
+				{
+					"onEvent": "Out",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd3ff9cb85b856"
+				},
+				{
+					"onEvent": "Out",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcda93b07649dcd"
+				},
+				{
+					"onEvent": "Out",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcda5cd7fad5215"
+				},
+				{
+					"onEvent": "Out",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd4207e51a5061"
+				},
+				{
+					"onEvent": "Out",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd812d09e3a3ca"
+				},
+				{
+					"onEvent": "Out",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd7f1d543a9e3d"
+				},
+				{
+					"onEvent": "Out",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd50e30d89b86e"
+				},
+				{
+					"onEvent": "Out",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd8d0bc28a298b"
+				},
+				{
+					"onEvent": "Out",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd849c315702ac"
+				},
+				{
+					"onEvent": "Out",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd1a26524e07d7"
+				},
+				{
+					"onEvent": "Out",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd964cbb153daf"
+				},
+				{
+					"onEvent": "Out",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcdaf22e10744f8"
+				},
+				{
+					"onEvent": "Out",
+					"shouldTrigger": "MakeInvisible",
+					"onEntity": "abcdb1d5acba0336"
+				},
+				{
+					"onEvent": "Out",
+					"shouldTrigger": "MakeInvisible",
+					"onEntity": "abcdbcddd2e81c9c"
+				}
+			],
 			"inputCopying": [],
 			"outputCopying": []
 		},
@@ -577,15 +632,18 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Spawn",
-				"onEntity": "abcd3753c77f3d1b"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd3ff9cb85b856"
-			}],
+			"events": [
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Spawn",
+					"onEntity": "abcd3753c77f3d1b"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd3ff9cb85b856"
+				}
+			],
 			"inputCopying": [],
 			"outputCopying": []
 		},
@@ -767,7 +825,7 @@
 							"z": 0
 						},
 						"position": {
-							"x": -0.10,
+							"x": -0.1,
 							"y": -0.07900000363588333,
 							"z": 0.05
 						}
@@ -833,7 +891,7 @@
 							"z": 0
 						},
 						"position": {
-							"x": -0.10,
+							"x": -0.1,
 							"y": -0.07900000363588333,
 							"z": 0.04
 						}
@@ -899,7 +957,7 @@
 							"z": 0
 						},
 						"position": {
-							"x": -0.10,
+							"x": -0.1,
 							"y": -0.07900000363588333,
 							"z": 0.03
 						}
@@ -1042,27 +1100,33 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcda93b07649dcd"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcda5cd7fad5215"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Reset",
-				"onEntity": "abcd812d09e3a3ca"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Start",
-				"onEntity": "abcd812d09e3a3ca"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd4207e51a5061"
-			}],
+			"events": [
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcda93b07649dcd"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcda5cd7fad5215"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Reset",
+					"onEntity": "abcd812d09e3a3ca"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Start",
+					"onEntity": "abcd812d09e3a3ca"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd4207e51a5061"
+				}
+			],
 			"outputCopying": []
 		},
 		"abcdd1a3b6435607": {
@@ -1075,23 +1139,28 @@
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
 			"events": [],
-			"inputCopying": [{
-				"whenTriggered": "Rotation",
-				"alsoTrigger": "Start",
-				"onEntity": "abcda93b07649dcd"
-			}, {
-				"whenTriggered": "Rotation",
-				"alsoTrigger": "Start",
-				"onEntity": "abcda5cd7fad5215"
-			}, {
-				"whenTriggered": "Rotation",
-				"alsoTrigger": "Reset",
-				"onEntity": "abcd4207e51a5061"
-			}, {
-				"whenTriggered": "Rotation",
-				"alsoTrigger": "Start",
-				"onEntity": "abcd4207e51a5061"
-			}],
+			"inputCopying": [
+				{
+					"whenTriggered": "Rotation",
+					"alsoTrigger": "Start",
+					"onEntity": "abcda93b07649dcd"
+				},
+				{
+					"whenTriggered": "Rotation",
+					"alsoTrigger": "Start",
+					"onEntity": "abcda5cd7fad5215"
+				},
+				{
+					"whenTriggered": "Rotation",
+					"alsoTrigger": "Reset",
+					"onEntity": "abcd4207e51a5061"
+				},
+				{
+					"whenTriggered": "Rotation",
+					"alsoTrigger": "Start",
+					"onEntity": "abcd4207e51a5061"
+				}
+			],
 			"outputCopying": []
 		},
 		"abcda93b07649dcd": {
@@ -1138,27 +1207,33 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Start",
-				"onEntity": "abcd7f1d543a9e3d"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Start",
-				"onEntity": "abcd50e30d89b86e"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Reset",
-				"onEntity": "abcdc490351239d1"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Start",
-				"onEntity": "abcdc490351239d1"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd812d09e3a3ca"
-			}],
+			"events": [
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Start",
+					"onEntity": "abcd7f1d543a9e3d"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Start",
+					"onEntity": "abcd50e30d89b86e"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Reset",
+					"onEntity": "abcdc490351239d1"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Start",
+					"onEntity": "abcdc490351239d1"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd812d09e3a3ca"
+				}
+			],
 			"inputCopying": [],
 			"outputCopying": []
 		},
@@ -1232,47 +1307,58 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd7f1d543a9e3d"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd50e30d89b86e"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "SetAngles",
-				"onEntity": "abcdc9d92c225b49"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "SetAngles",
-				"onEntity": "abcdf8616ef58022"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcdc490351239d1"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "MakeVisible",
-				"onEntity": "abcdb0c5501b3564"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "MakeVisible",
-				"onEntity": "abcde0f71332133d"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "MakeInvisible",
-				"onEntity": "abcdb1d5acba0336"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "MakeInvisible",
-				"onEntity": "abcdbcddd2e81c9c"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "SetFalse",
-				"onEntity": "abcd1bee3c169c0f"
-			}],
+			"events": [
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd7f1d543a9e3d"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd50e30d89b86e"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "SetAngles",
+					"onEntity": "abcdc9d92c225b49"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "SetAngles",
+					"onEntity": "abcdf8616ef58022"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcdc490351239d1"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "MakeVisible",
+					"onEntity": "abcdb0c5501b3564"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "MakeVisible",
+					"onEntity": "abcde0f71332133d"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "MakeInvisible",
+					"onEntity": "abcdb1d5acba0336"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "MakeInvisible",
+					"onEntity": "abcdbcddd2e81c9c"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "SetFalse",
+					"onEntity": "abcd1bee3c169c0f"
+				}
+			],
 			"inputCopying": [],
 			"outputCopying": []
 		},
@@ -1286,35 +1372,43 @@
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
 			"events": [],
-			"inputCopying": [{
-				"whenTriggered": "Start",
-				"alsoTrigger": "Start",
-				"onEntity": "abcd849c315702ac"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "Reset",
-				"onEntity": "abcd8d0bc28a298b"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "Start",
-				"onEntity": "abcd8d0bc28a298b"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "Start",
-				"onEntity": "abcdaf22e10744f8"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "SetTrue",
-				"onEntity": "abcd7e64e3ce0509"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "MakeInvisible",
-				"onEntity": "abcdb1d5acba0336"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "MakeInvisible",
-				"onEntity": "abcdbcddd2e81c9c"
-			}],
+			"inputCopying": [
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "Start",
+					"onEntity": "abcd849c315702ac"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "Reset",
+					"onEntity": "abcd8d0bc28a298b"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "Start",
+					"onEntity": "abcd8d0bc28a298b"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "Start",
+					"onEntity": "abcdaf22e10744f8"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "SetTrue",
+					"onEntity": "abcd7e64e3ce0509"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "MakeInvisible",
+					"onEntity": "abcdb1d5acba0336"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "MakeInvisible",
+					"onEntity": "abcdbcddd2e81c9c"
+				}
+			],
 			"outputCopying": []
 		},
 		"abcdc9d92c225b49": {
@@ -1379,55 +1473,68 @@
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
 			"events": [],
-			"inputCopying": [{
-				"whenTriggered": "Start",
-				"alsoTrigger": "Reset",
-				"onEntity": "abcda8093e707ebd"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "Start",
-				"onEntity": "abcda8093e707ebd"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "Reset",
-				"onEntity": "abcdafa4cdb2862d"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "Start",
-				"onEntity": "abcdafa4cdb2862d"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "Reset",
-				"onEntity": "abcd3ff9cb85b856"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "Start",
-				"onEntity": "abcd3ff9cb85b856"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "Rotation",
-				"onEntity": "abcdd1a3b6435607"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "MakeInvisible",
-				"onEntity": "abcdb0c5501b3564"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "MakeInvisible",
-				"onEntity": "abcde0f71332133d"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "MakeVisible",
-				"onEntity": "abcdb1d5acba0336"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "MakeVisible",
-				"onEntity": "abcdbcddd2e81c9c"
-			}, {
-				"whenTriggered": "Start",
-				"alsoTrigger": "SetTrue",
-				"onEntity": "abcd1bee3c169c0f"
-			}],
+			"inputCopying": [
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "Reset",
+					"onEntity": "abcda8093e707ebd"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "Start",
+					"onEntity": "abcda8093e707ebd"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "Reset",
+					"onEntity": "abcdafa4cdb2862d"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "Start",
+					"onEntity": "abcdafa4cdb2862d"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "Reset",
+					"onEntity": "abcd3ff9cb85b856"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "Start",
+					"onEntity": "abcd3ff9cb85b856"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "Rotation",
+					"onEntity": "abcdd1a3b6435607"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "MakeInvisible",
+					"onEntity": "abcdb0c5501b3564"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "MakeInvisible",
+					"onEntity": "abcde0f71332133d"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "MakeVisible",
+					"onEntity": "abcdb1d5acba0336"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "MakeVisible",
+					"onEntity": "abcdbcddd2e81c9c"
+				},
+				{
+					"whenTriggered": "Start",
+					"alsoTrigger": "SetTrue",
+					"onEntity": "abcd1bee3c169c0f"
+				}
+			],
 			"outputCopying": []
 		},
 		"abcd849c315702ac": {
@@ -1474,27 +1581,33 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd849c315702ac"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Start",
-				"onEntity": "abcd1a26524e07d7"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Reset",
-				"onEntity": "abcd964cbb153daf"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Start",
-				"onEntity": "abcd964cbb153daf"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd8d0bc28a298b"
-			}],
+			"events": [
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd849c315702ac"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Start",
+					"onEntity": "abcd1a26524e07d7"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Reset",
+					"onEntity": "abcd964cbb153daf"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Start",
+					"onEntity": "abcd964cbb153daf"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd8d0bc28a298b"
+				}
+			],
 			"inputCopying": [],
 			"outputCopying": []
 		},
@@ -1568,31 +1681,38 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd1a26524e07d7"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "SetAngles",
-				"onEntity": "abcddf518d7cbc7a"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcdaf22e10744f8"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "SetAngles",
-				"onEntity": "abcdc10bd00bc080"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "SetFalse",
-				"onEntity": "abcd7e64e3ce0509"
-			}, {
-				"onEvent": "TimeOut",
-				"shouldTrigger": "Stop",
-				"onEntity": "abcd964cbb153daf"
-			}],
+			"events": [
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd1a26524e07d7"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "SetAngles",
+					"onEntity": "abcddf518d7cbc7a"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcdaf22e10744f8"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "SetAngles",
+					"onEntity": "abcdc10bd00bc080"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "SetFalse",
+					"onEntity": "abcd7e64e3ce0509"
+				},
+				{
+					"onEvent": "TimeOut",
+					"shouldTrigger": "Stop",
+					"onEntity": "abcd964cbb153daf"
+				}
+			],
 			"inputCopying": [],
 			"outputCopying": []
 		},
@@ -1798,11 +1918,13 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "PollFalse",
-				"shouldTrigger": "Poll",
-				"onEntity": "abcda887e69b10d5"
-			}],
+			"events": [
+				{
+					"onEvent": "PollFalse",
+					"shouldTrigger": "Poll",
+					"onEntity": "abcda887e69b10d5"
+				}
+			],
 			"inputCopying": [],
 			"outputCopying": []
 		},
@@ -1820,11 +1942,13 @@
 			"postInitProperties": {},
 			"editorOnly": false,
 			"platformSpecificPropertyValues": [],
-			"events": [{
-				"onEvent": "PollFalse",
-				"shouldTrigger": "Start",
-				"onEntity": "abcd16b1ef2909f3"
-			}],
+			"events": [
+				{
+					"onEvent": "PollFalse",
+					"shouldTrigger": "Start",
+					"onEntity": "abcd16b1ef2909f3"
+				}
+			],
 			"inputCopying": [],
 			"outputCopying": []
 		},

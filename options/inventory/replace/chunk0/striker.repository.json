@@ -1,1 +1,56 @@
-{"15291f69-88d0-4a8f-b31b-71605ba5ff38":{"ModelBodyPartSelections":[],"ModelSkinSelections":[],"Runtime":"7107679793315480","EffectFlashSelection":0.0,"EffectSmokeSelection":0.0,"ModelMuzzleExtensionSelection":0.0,"ModelMuzzleExtensionSkinSelection":0.0,"ModelScopeSelection":0.0,"ItemType":"eRevolver_Taurus","CommonName":"Firearms_Hero_Revolver_magnum","Name_LOC":"ui_firearms_hero_revolver_44magnum_name","Description":"ui_firearms_hero_revolver_44magnum_desc","GripAnimType":"IGT_Firearm_Dartgun","ModelScopeSkinSelection":0.0,"HudIcon":"58951538893229328","Image":"images/unlockables_override/item_perspective_96c339bf-43e7-4132-8c3a-dfe8c08572b1_0.jpg","ActorConfiguration":{"DamageClose":200.0,"DamageFar":60.0,"DamageMedium":200.0,"DamageNear":200.0,"MagazineConfigs":["659e8557-7ed7-4640-847b-a38370cc50de"],"ShotsPerMinute":120.0,"ReloadFactor":0.75,"ExtraPickupMagazines":1.0,"BulletsPerMagazine":6.0,"InitialMagazines":4.0},"PrimaryConfiguration":{"DamageClose":200.0,"DamageFar":60.0,"DamageMedium":200.0,"DamageNear":200.0,"MagazineConfigs":["659e8557-7ed7-4640-847b-a38370cc50de"],"ShotsPerMinute":120.0,"ReloadFactor":0.75,"ExtraPickupMagazines":1.0,"BulletsPerMagazine":6.0,"InitialMagazines":4.0},"SecondaryConfiguration":{"DamageClose":200.0,"DamageFar":60.0,"DamageMedium":200.0,"DamageNear":200.0,"MagazineConfigs":["659e8557-7ed7-4640-847b-a38370cc50de"],"ShotsPerMinute":120.0,"ReloadFactor":0.75,"ExtraPickupMagazines":1.0,"BulletsPerMagazine":6.0,"InitialMagazines":4.0}}}
+{
+	"15291f69-88d0-4a8f-b31b-71605ba5ff38": {
+		"ModelBodyPartSelections": [],
+		"ModelSkinSelections": [],
+		"Runtime": "7107679793315480",
+		"EffectFlashSelection": 0.0,
+		"EffectSmokeSelection": 0.0,
+		"ModelMuzzleExtensionSelection": 0.0,
+		"ModelMuzzleExtensionSkinSelection": 0.0,
+		"ModelScopeSelection": 0.0,
+		"ItemType": "eRevolver_Taurus",
+		"CommonName": "Firearms_Hero_Revolver_magnum",
+		"Name_LOC": "ui_firearms_hero_revolver_44magnum_name",
+		"Description": "ui_firearms_hero_revolver_44magnum_desc",
+		"GripAnimType": "IGT_Firearm_Dartgun",
+		"ModelScopeSkinSelection": 0.0,
+		"HudIcon": "58951538893229328",
+		"Image": "images/unlockables_override/item_perspective_96c339bf-43e7-4132-8c3a-dfe8c08572b1_0.jpg",
+		"ActorConfiguration": {
+			"DamageClose": 200.0,
+			"DamageFar": 60.0,
+			"DamageMedium": 200.0,
+			"DamageNear": 200.0,
+			"MagazineConfigs": ["659e8557-7ed7-4640-847b-a38370cc50de"],
+			"ShotsPerMinute": 120.0,
+			"ReloadFactor": 0.75,
+			"ExtraPickupMagazines": 1.0,
+			"BulletsPerMagazine": 6.0,
+			"InitialMagazines": 4.0
+		},
+		"PrimaryConfiguration": {
+			"DamageClose": 200.0,
+			"DamageFar": 60.0,
+			"DamageMedium": 200.0,
+			"DamageNear": 200.0,
+			"MagazineConfigs": ["659e8557-7ed7-4640-847b-a38370cc50de"],
+			"ShotsPerMinute": 120.0,
+			"ReloadFactor": 0.75,
+			"ExtraPickupMagazines": 1.0,
+			"BulletsPerMagazine": 6.0,
+			"InitialMagazines": 4.0
+		},
+		"SecondaryConfiguration": {
+			"DamageClose": 200.0,
+			"DamageFar": 60.0,
+			"DamageMedium": 200.0,
+			"DamageNear": 200.0,
+			"MagazineConfigs": ["659e8557-7ed7-4640-847b-a38370cc50de"],
+			"ShotsPerMinute": 120.0,
+			"ReloadFactor": 0.75,
+			"ExtraPickupMagazines": 1.0,
+			"BulletsPerMagazine": 6.0,
+			"InitialMagazines": 4.0
+		}
+	}
+}

@@ -1,5 +1,4 @@
-
-*holy fuck there are so many hashes
+\*holy fuck there are so many hashes
 
 00194065A941FE98.TEMP,[assembly:/_pro/design/items/firearm_runtimes.template?/firearms_hero_revolver_44mag_runtime.entitytemplate].pc_entitytemplate
 006B6C3EBA149658.TBLU,[assembly:/_pro/design/items/firearm_runtimes.template?/firearms_hero_revolver_44mag_runtime.entitytemplate].pc_entityblueprint
@@ -31,14 +30,14 @@
 00A7E34FC055B9A6.TEMP,[assembly:/_pro/items/geometry/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.wl2?/casing_empty.prim].pc_entitytype
 00D13A75CEE6DE9D.MATI,[assembly:/_pro/items/materials/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.mi].pc_mi
 007A514F59D51A92.MATI,[assembly:/_pro/items/materials/firearms/frames/revolver_hero_44mag/casing.mi].pc_mi
-008F3DD9779A2E64.TEXT,[assembly:/_pro/items/textures/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.texture?/normal_b.tex](asnormalmap).pc_tex
-000CBE884A08E639.TEXD,[assembly:/_pro/items/textures/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.texture?/normal_b.tex](asnormalmap).pc_mipblock1
-00FA95712038FB16.TEXT,[assembly:/_pro/items/textures/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.texture?/diffuse_b.tex](ascolormap).pc_tex
-005BCE346034ABE5.TEXD,[assembly:/_pro/items/textures/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.texture?/diffuse_b.tex](ascolormap).pc_mipblock1
-0093595AA7B0C90C.TEXT,[assembly:/_pro/items/textures/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.texture?/specular_b.tex](ascolormap).pc_tex
-0099631E8DAF0DE2.TEXD,[assembly:/_pro/items/textures/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.texture?/specular_b.tex](ascolormap).pc_mipblock1
-0019D568365C6CC4.TEXT,[assembly:/_pro/items/textures/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.texture?/ao_b.tex](ascolormap).pc_tex
-000CD0ECFD2FE017.TEXD,[assembly:/_pro/items/textures/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.texture?/ao_b.tex](ascolormap).pc_mipblock1
+008F3DD9779A2E64.TEXT,[assembly:/\_pro/items/textures/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.texture?/normal_b.tex](asnormalmap).pc_tex
+000CBE884A08E639.TEXD,[assembly:/\_pro/items/textures/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.texture?/normal_b.tex](asnormalmap).pc_mipblock1
+00FA95712038FB16.TEXT,[assembly:/\_pro/items/textures/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.texture?/diffuse_b.tex](ascolormap).pc_tex
+005BCE346034ABE5.TEXD,[assembly:/\_pro/items/textures/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.texture?/diffuse_b.tex](ascolormap).pc_mipblock1
+0093595AA7B0C90C.TEXT,[assembly:/\_pro/items/textures/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.texture?/specular_b.tex](ascolormap).pc_tex
+0099631E8DAF0DE2.TEXD,[assembly:/\_pro/items/textures/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.texture?/specular_b.tex](ascolormap).pc_mipblock1
+0019D568365C6CC4.TEXT,[assembly:/\_pro/items/textures/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.texture?/ao_b.tex](ascolormap).pc_tex
+000CD0ECFD2FE017.TEXD,[assembly:/\_pro/items/textures/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.texture?/ao_b.tex](ascolormap).pc_mipblock1
 
 diffuse 00FA95712038FB16~005BCE346034ABE5
 normal 008F3DD9779A2E64~000CBE884A08E639

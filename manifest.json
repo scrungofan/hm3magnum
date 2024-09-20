@@ -1,12 +1,10 @@
 {
-	"version": "1.0.0",
+	"version": "0.2.0",
 	"id": "invalid.44magnum",
 	"name": "Striker .44 Magnum",
 	"description": "Adds a revolver to the game, either replacing the striker or as an add-on",
-	"authors": [
-		"invalid"
-	],
-	"frameworkVersion": "2.0.0",
+	"authors": ["invalid"],
+	"frameworkVersion": "2.33.20",
 	"localisation": {
 		"english": {
 			"ui_firearms_hero_revolver_44magnum_name": "Striker .44 Magnum",
@@ -20,18 +18,14 @@
 			"type": "select",
 			"group": "Animated/Static",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"options/animation/animated"
-			]
+			"contentFolders": ["options/animation/animated"]
 		},
 		{
 			"name": "Static",
 			"tooltip": "Static model, no animations for reloads or firing.",
 			"type": "select",
 			"group": "Animated/Static",
-			"contentFolders": [
-				"options/animation/static"
-			]
+			"contentFolders": ["options/animation/static"]
 		},
 		{
 			"name": "Replace Striker",
@@ -39,9 +33,7 @@
 			"image": "options/inventory/replace.png",
 			"type": "checkbox",
 			"enabledByDefault": false,
-			"contentFolders": [
-				"options/inventory/replace"
-			]
+			"contentFolders": ["options/inventory/replace"]
 		},
 		{
 			"name": "Replace El matador",
@@ -49,9 +41,7 @@
 			"image": "options/inventory/replace.png",
 			"type": "checkbox",
 			"enabledByDefault": false,
-			"contentFolders": [
-				"options/inventory/matador"
-			]
+			"contentFolders": ["options/inventory/matador"]
 		},
 		{
 			"name": "Add-On",
@@ -59,15 +49,10 @@
 			"image": "options/inventory/addon.png",
 			"type": "checkbox",
 			"enabledByDefault": false,
-			"contentFolders": [
-				"options/inventory/addon"
-			]
+			"contentFolders": ["options/inventory/addon"]
 		}
 	],
-	"contentFolders": [
-		"base/cont"
-	],
-	"blobsFolders": [
-		"base/blobs"
-	]
+	"contentFolders": ["base/cont"],
+	"blobsFolders": ["base/blobs"],
+	"updateCheck": "https://github.com/scrungofan/hm3magnum/releases/latest/download/updates.json"
 }

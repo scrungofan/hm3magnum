@@ -1,1 +1,768 @@
-{"tempHash":"0022A8FF34F741AE","tbluHash":"00A07001F1A87C33","rootEntity":"bb95a0483c501b73","entities":{"b00c430c6d5475f9":{"parent":"abcdbae760acdd77","name":"HM5ClipSpawnerEntity_casing","factory":"[modules:/zhm5clipspawnerentity.class].pc_entitytype","blueprint":"[modules:/zhm5clipspawnerentity.class].pc_entityblueprint","properties":{"m_bRandomTorque":{"type":"bool","value":true},"m_bRandomAdjustEjectDir":{"type":"bool","value":true},"m_bRandomEjectForce":{"type":"bool","value":true},"m_bUseEmitterMoveSpeed":{"type":"bool","value":true},"m_nEjectForce":{"type":"float32","value":1},"m_pClipFactory":{"type":"ZRuntimeResourceID","value":{"resource":"0069E1FC622BADCA","flag":"5F"}},"m_fLifeTime":{"type":"float32","value":120},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-0.09,"y":-0.07900000363588333,"z":0.03}}},"m_eSpawnAxis":{"type":"EClipSpawnAxis","value":"eCSA_ZNeg"},"m_eidParent":{"type":"SEntityTemplateReference","value":"bb95a0483c501b73","postInit":true}}},"41efba80cf73425e":{"parent":"bb95a0483c501b73","name":"FX_E_MuzzleFlash_Pistol_Big","factory":"[assembly:/_pro/effects/templates/weapons/fx_muzzleflashes.template?/fx_e_muzzleflash_pistol_big.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/effects/templates/weapons/fx_muzzleflashes.template?/fx_e_muzzleflash_pistol_big.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0.21,"z":0.05}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"bb95a0483c501b73","postInit":true}}},"9211c86a5c056639":{"parent":"bb95a0483c501b73","name":"ModularFirearmConfigurator","factory":"[modules:/zmodularfirearmconfigurator.class].pc_entitytype","blueprint":"[modules:/zmodularfirearmconfigurator.class].pc_entityblueprint","properties":{"m_rFallbackMuzzleEffect":{"type":"SEntityTemplateReference","value":"41efba80cf73425e"}}},"12f1e093da8a3ee1":{"parent":"bb95a0483c501b73","name":"FX_E_MuzzleFlash_ChamberSmoke_01","factory":"[assembly:/_pro/effects/templates/weapons/fx_muzzleflashes.template?/fx_e_muzzleflash_chambersmoke.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/effects/templates/weapons/fx_muzzleflashes.template?/fx_e_muzzleflash_chambersmoke.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.0010430000256747007,"y":0.015297000296413898,"z":0.045805998146533966}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"bb95a0483c501b73","postInit":true}}},"bb95a0483c501b73":{"parent":null,"name":"revolver_hero_44mag","factory":"[assembly:/_pro/items/geometry/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.wl2?/revolver_hero_44mag.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatenocoll.template?/compositeentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":1,"z":0.5}}}},"inputCopying":{"WeaponStartReload":{"Start":["abcd501ebf81d21b"]},"MoveHammer":{"Poll":["abcd6c67e4bfdd33"]},"ActivateShellFX":{"Activate":["12f1e093da8a3ee1"]},"HideTrash":{"MakeInvisible":["abcdb1d5acba0336","abcdbcddd2e81c9c","abcdcfdabc0f0c1d","abcdb0c5501b3564","abcde0f71332133d"]},"ShowTrash":{"MakeVisible":["abcdb1d5acba0336","abcdbcddd2e81c9c","abcdcfdabc0f0c1d","abcdb0c5501b3564","abcde0f71332133d"]}},"exposedInterfaces":{"ZModularFirearmConfigurator":"9211c86a5c056639"}},"abcd9ee9e1e378d8":{"parent":null,"name":"zmultiparentspatialentity","factory":"[modules:/zmultiparentspatialentity.class].pc_entitytype","blueprint":"[modules:/zmultiparentspatialentity.class].pc_entityblueprint","properties":{"m_aParents":{"type":"TArray<SEntityTemplateReference>","value":["12f1e093da8a3ee1","41efba80cf73425e","abcd47c82e7499a3","abcd0562ef873d18","abcd994e4f8b7297","abcd82135799790a","abcde8e9770046b9","b00c430c6d5475f9","abcd3753c77f3d1b"]}}},"abcde4de636cf026":{"parent":"abcd9ee9e1e378d8","name":"gameeventlistener","factory":"[modules:/zgameeventlistenerentity.class].pc_entitytype","blueprint":"[modules:/zgameeventlistenerentity.class].pc_entityblueprint","events":{"EventOccurred":{"GetIndex":["abcd9ee9e1e378d8"]}}},"abcdb1d5acba0336":{"parent":"abcd15caacfec568","name":"bullets","factory":"[assembly:/_pro/items/geometry/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.wl2?/bullets.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatenocoll.template?/compositeentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-0.0025,"y":0,"z":0.0244}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"bb95a0483c501b73"}}},"abcd105334b3667c":{"parent":"bb95a0483c501b73","name":"animations","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"},"abcda8093e707ebd":{"parent":"abcd501ebf81d21b","name":"Insert bullets","factory":"[modules:/ztimerentity.class].pc_entitytype","blueprint":"[modules:/ztimerentity.class].pc_entityblueprint","properties":{"m_bEnabled":{"type":"bool","value":true},"m_nInterval":{"type":"int32","value":300}},"events":{"TimeOut":{"MakeVisible":["abcdb1d5acba0336"],"Stop":["abcda8093e707ebd"]}}},"abcd3753c77f3d1b":{"parent":"abcd3ff9cb85b856","name":"HM5ClipSpawnerEntity_speedloader","factory":"[modules:/zhm5clipspawnerentity.class].pc_entitytype","blueprint":"[modules:/zhm5clipspawnerentity.class].pc_entityblueprint","properties":{"m_bRandomTorque":{"type":"bool","value":false},"m_bRandomAdjustEjectDir":{"type":"bool","value":false},"m_bRandomEjectForce":{"type":"bool","value":false},"m_bUseEmitterMoveSpeed":{"type":"bool","value":true},"m_nEjectForce":{"type":"float32","value":1},"m_pClipFactory":{"type":"ZRuntimeResourceID","value":{"resource":"003A35FEA97184B5","flag":"5F"}},"m_fLifeTime":{"type":"float32","value":120},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-0.1,"y":-0.100000363588333,"z":-0.06300000101327896}}},"m_eSpawnAxis":{"type":"EClipSpawnAxis","value":"eCSA_ZNeg"},"m_eidParent":{"type":"SEntityTemplateReference","value":"bb95a0483c501b73","postInit":true}}},"abcdafa4cdb2862d":{"parent":"abcd501ebf81d21b","name":"Eject casings","factory":"[modules:/ztimerentity.class].pc_entitytype","blueprint":"[modules:/ztimerentity.class].pc_entityblueprint","properties":{"m_bEnabled":{"type":"bool","value":true},"m_nInterval":{"type":"int32","value":120}},"events":{"TimeOut":{"Spawn":["abcd47c82e7499a3","abcd0562ef873d18","abcd994e4f8b7297","abcd82135799790a","abcde8e9770046b9","b00c430c6d5475f9"],"MakeInvisible":["abcdb1d5acba0336"],"Stop":["abcdafa4cdb2862d"]}}},"abcd568b7e2beae4":{"parent":"abcd105334b3667c","name":"gameventlistener","factory":"[modules:/zgameeventlistenerentity.class].pc_entitytype","blueprint":"[modules:/zgameeventlistenerentity.class].pc_entityblueprint","events":{"EventOccurred":{"Signal":["abcd08ed01297cb0"]}}},"abcd08ed01297cb0":{"parent":"abcd568b7e2beae4","name":"signalonce","factory":"[modules:/zvoidsignalonceentity.class].pc_entitytype","blueprint":"[modules:/zvoidsignalonceentity.class].pc_entityblueprint","properties":{"m_fExpireInterval":{"type":"float32","value":5},"m_bSignaling":{"type":"bool","value":true}},"events":{"Out":{"Stop":["abcdafa4cdb2862d","abcda8093e707ebd","abcd3ff9cb85b856","abcda93b07649dcd","abcda5cd7fad5215","abcd4207e51a5061","abcd812d09e3a3ca","abcd7f1d543a9e3d","abcd50e30d89b86e","abcd8d0bc28a298b","abcd849c315702ac","abcd1a26524e07d7","abcd964cbb153daf","abcdaf22e10744f8"],"MakeInvisible":["abcdb1d5acba0336","abcdbcddd2e81c9c"]}}},"abcd3ff9cb85b856":{"parent":"abcd501ebf81d21b","name":"Throw empty speedloader","factory":"[modules:/ztimerentity.class].pc_entitytype","blueprint":"[modules:/ztimerentity.class].pc_entityblueprint","properties":{"m_bEnabled":{"type":"bool","value":true},"m_nInterval":{"type":"int32","value":530}},"events":{"TimeOut":{"Spawn":["abcd3753c77f3d1b"],"Stop":["abcd3ff9cb85b856"]}}},"abcd82135799790a":{"parent":"abcdbae760acdd77","name":"HM5ClipSpawnerEntity_casing","factory":"[modules:/zhm5clipspawnerentity.class].pc_entitytype","blueprint":"[modules:/zhm5clipspawnerentity.class].pc_entityblueprint","properties":{"m_bRandomTorque":{"type":"bool","value":true},"m_bRandomAdjustEjectDir":{"type":"bool","value":true},"m_bRandomEjectForce":{"type":"bool","value":true},"m_bUseEmitterMoveSpeed":{"type":"bool","value":true},"m_nEjectForce":{"type":"float32","value":1},"m_pClipFactory":{"type":"ZRuntimeResourceID","value":{"resource":"0069E1FC622BADCA","flag":"5F"}},"m_fLifeTime":{"type":"float32","value":120},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-0.09,"y":-0.07900000363588333,"z":0.05}}},"m_eSpawnAxis":{"type":"EClipSpawnAxis","value":"eCSA_ZNeg"},"m_eidParent":{"type":"SEntityTemplateReference","value":"bb95a0483c501b73","postInit":true}}},"abcde8e9770046b9":{"parent":"abcdbae760acdd77","name":"HM5ClipSpawnerEntity_casing","factory":"[modules:/zhm5clipspawnerentity.class].pc_entitytype","blueprint":"[modules:/zhm5clipspawnerentity.class].pc_entityblueprint","properties":{"m_bRandomTorque":{"type":"bool","value":true},"m_bRandomAdjustEjectDir":{"type":"bool","value":true},"m_bRandomEjectForce":{"type":"bool","value":true},"m_bUseEmitterMoveSpeed":{"type":"bool","value":true},"m_nEjectForce":{"type":"float32","value":1},"m_pClipFactory":{"type":"ZRuntimeResourceID","value":{"resource":"0069E1FC622BADCA","flag":"5F"}},"m_fLifeTime":{"type":"float32","value":120},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-0.09,"y":-0.07900000363588333,"z":0.04}}},"m_eSpawnAxis":{"type":"EClipSpawnAxis","value":"eCSA_ZNeg"},"m_eidParent":{"type":"SEntityTemplateReference","value":"bb95a0483c501b73","postInit":true}}},"abcd47c82e7499a3":{"parent":"abcdbae760acdd77","name":"HM5ClipSpawnerEntity_casing","factory":"[modules:/zhm5clipspawnerentity.class].pc_entitytype","blueprint":"[modules:/zhm5clipspawnerentity.class].pc_entityblueprint","properties":{"m_bRandomTorque":{"type":"bool","value":true},"m_bRandomAdjustEjectDir":{"type":"bool","value":true},"m_bRandomEjectForce":{"type":"bool","value":true},"m_bUseEmitterMoveSpeed":{"type":"bool","value":true},"m_nEjectForce":{"type":"float32","value":1},"m_pClipFactory":{"type":"ZRuntimeResourceID","value":{"resource":"0069E1FC622BADCA","flag":"5F"}},"m_fLifeTime":{"type":"float32","value":120},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-0.1,"y":-0.07900000363588333,"z":0.05}}},"m_eSpawnAxis":{"type":"EClipSpawnAxis","value":"eCSA_ZNeg"},"m_eidParent":{"type":"SEntityTemplateReference","value":"bb95a0483c501b73","postInit":true}}},"abcd0562ef873d18":{"parent":"abcdbae760acdd77","name":"HM5ClipSpawnerEntity_casing","factory":"[modules:/zhm5clipspawnerentity.class].pc_entitytype","blueprint":"[modules:/zhm5clipspawnerentity.class].pc_entityblueprint","properties":{"m_bRandomTorque":{"type":"bool","value":true},"m_bRandomAdjustEjectDir":{"type":"bool","value":true},"m_bRandomEjectForce":{"type":"bool","value":true},"m_bUseEmitterMoveSpeed":{"type":"bool","value":true},"m_nEjectForce":{"type":"float32","value":1},"m_pClipFactory":{"type":"ZRuntimeResourceID","value":{"resource":"0069E1FC622BADCA","flag":"5F"}},"m_fLifeTime":{"type":"float32","value":120},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-0.1,"y":-0.07900000363588333,"z":0.04}}},"m_eSpawnAxis":{"type":"EClipSpawnAxis","value":"eCSA_ZNeg"},"m_eidParent":{"type":"SEntityTemplateReference","value":"bb95a0483c501b73","postInit":true}}},"abcd994e4f8b7297":{"parent":"abcdbae760acdd77","name":"HM5ClipSpawnerEntity_casing","factory":"[modules:/zhm5clipspawnerentity.class].pc_entitytype","blueprint":"[modules:/zhm5clipspawnerentity.class].pc_entityblueprint","properties":{"m_bRandomTorque":{"type":"bool","value":true},"m_bRandomAdjustEjectDir":{"type":"bool","value":true},"m_bRandomEjectForce":{"type":"bool","value":true},"m_bUseEmitterMoveSpeed":{"type":"bool","value":true},"m_nEjectForce":{"type":"float32","value":1},"m_pClipFactory":{"type":"ZRuntimeResourceID","value":{"resource":"0069E1FC622BADCA","flag":"5F"}},"m_fLifeTime":{"type":"float32","value":120},"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-0.1,"y":-0.07900000363588333,"z":0.03}}},"m_eSpawnAxis":{"type":"EClipSpawnAxis","value":"eCSA_ZNeg"},"m_eidParent":{"type":"SEntityTemplateReference","value":"bb95a0483c501b73","postInit":true}}},"abcdbae760acdd77":{"parent":"abcdafa4cdb2862d","name":"6","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"},"abcdbcddd2e81c9c":{"parent":"abcd15caacfec568","name":"cylinder","factory":"[assembly:/_pro/items/geometry/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.wl2?/cylinder.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatenocoll.template?/compositeentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":-0.0025,"y":0,"z":0.0244}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"bb95a0483c501b73"}}},"abcdcfdabc0f0c1d":{"parent":"abcd12099373a013","name":"hammer","factory":"[assembly:/_pro/items/geometry/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.wl2?/hammer.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatenocoll.template?/compositeentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"bb95a0483c501b73"}}},"abcda5cd7fad5215":{"parent":"abcdd1a3b6435607","name":"Rotate cylinder","factory":"[modules:/zrotateentity.class].pc_entitytype","blueprint":"[modules:/zrotateentity.class].pc_entityblueprint","properties":{"m_Geom":{"type":"SEntityTemplateReference","value":"abcdbcddd2e81c9c"},"m_bEnabled":{"type":"bool","value":true},"m_fYAxisSpeed":{"type":"float32","value":-10}}},"abcd4207e51a5061":{"parent":"abcdd1a3b6435607","name":"Stop rotating","factory":"[modules:/ztimerentity.class].pc_entitytype","blueprint":"[modules:/ztimerentity.class].pc_entityblueprint","properties":{"m_bEnabled":{"type":"bool","value":true},"m_nInterval":{"type":"int32","value":200}},"events":{"TimeOut":{"Stop":["abcda93b07649dcd","abcda5cd7fad5215","abcd4207e51a5061"],"Reset":["abcd812d09e3a3ca"],"Start":["abcd812d09e3a3ca"]}}},"abcdd1a3b6435607":{"parent":"abcd501ebf81d21b","name":"Rotate","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint","inputCopying":{"Rotation":{"Start":["abcda93b07649dcd","abcda5cd7fad5215","abcd4207e51a5061"],"Reset":["abcd4207e51a5061"]}}},"abcda93b07649dcd":{"parent":"abcdd1a3b6435607","name":"Rotate bullets","factory":"[modules:/zrotateentity.class].pc_entitytype","blueprint":"[modules:/zrotateentity.class].pc_entityblueprint","properties":{"m_Geom":{"type":"SEntityTemplateReference","value":"abcdb1d5acba0336"},"m_bEnabled":{"type":"bool","value":true},"m_fYAxisSpeed":{"type":"float32","value":-10}}},"abcd812d09e3a3ca":{"parent":"abcd4207e51a5061","name":"Wait a bit","factory":"[modules:/ztimerentity.class].pc_entitytype","blueprint":"[modules:/ztimerentity.class].pc_entityblueprint","properties":{"m_bEnabled":{"type":"bool","value":true},"m_nInterval":{"type":"int32","value":300}},"events":{"TimeOut":{"Start":["abcd7f1d543a9e3d","abcd50e30d89b86e","abcdc490351239d1"],"Reset":["abcdc490351239d1"],"Stop":["abcd812d09e3a3ca"]}}},"abcd7f1d543a9e3d":{"parent":"abcd812d09e3a3ca","name":"Rotate bullets backwards","factory":"[modules:/zrotateentity.class].pc_entitytype","blueprint":"[modules:/zrotateentity.class].pc_entityblueprint","properties":{"m_Geom":{"type":"SEntityTemplateReference","value":"abcdb1d5acba0336"},"m_bEnabled":{"type":"bool","value":true},"m_fYAxisSpeed":{"type":"float32","value":10}}},"abcd50e30d89b86e":{"parent":"abcd812d09e3a3ca","name":"Rotate cylinder backwards","factory":"[modules:/zrotateentity.class].pc_entitytype","blueprint":"[modules:/zrotateentity.class].pc_entityblueprint","properties":{"m_Geom":{"type":"SEntityTemplateReference","value":"abcdbcddd2e81c9c"},"m_bEnabled":{"type":"bool","value":true},"m_fYAxisSpeed":{"type":"float32","value":10}}},"abcdc490351239d1":{"parent":"abcd812d09e3a3ca","name":"Stop","factory":"[modules:/ztimerentity.class].pc_entitytype","blueprint":"[modules:/ztimerentity.class].pc_entityblueprint","properties":{"m_bEnabled":{"type":"bool","value":true},"m_nInterval":{"type":"int32","value":200}},"events":{"TimeOut":{"Stop":["abcd7f1d543a9e3d","abcd50e30d89b86e","abcdc490351239d1"],"SetAngles":["abcdc9d92c225b49","abcdf8616ef58022"],"MakeVisible":["abcdb0c5501b3564","abcde0f71332133d"],"MakeInvisible":["abcdb1d5acba0336","abcdbcddd2e81c9c"],"SetFalse":["abcd1bee3c169c0f"]}}},"abcd16b1ef2909f3":{"parent":"abcd08ed01297cb0","name":"Firing","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint","inputCopying":{"Start":{"Start":["abcd849c315702ac","abcd8d0bc28a298b","abcdaf22e10744f8"],"Reset":["abcd8d0bc28a298b"],"SetTrue":["abcd7e64e3ce0509"],"MakeInvisible":["abcdb1d5acba0336","abcdbcddd2e81c9c"]}}},"abcdc9d92c225b49":{"parent":"abcdc490351239d1","name":"Fallback set rotation of bullets","factory":"[modules:/zsetrotationentity.class].pc_entitytype","blueprint":"[modules:/zsetrotationentity.class].pc_entityblueprint","properties":{"m_Geom":{"type":"SEntityTemplateReference","value":"abcdb1d5acba0336"},"m_fAngles":{"type":"SVector3","value":{"x":0,"y":0,"z":0}}}},"abcdf8616ef58022":{"parent":"abcdc490351239d1","name":"Fallback set rotation of cylinder","factory":"[modules:/zsetrotationentity.class].pc_entitytype","blueprint":"[modules:/zsetrotationentity.class].pc_entityblueprint","properties":{"m_Geom":{"type":"SEntityTemplateReference","value":"abcdbcddd2e81c9c"},"m_fAngles":{"type":"SVector3","value":{"x":0,"y":0,"z":0}}}},"abcd501ebf81d21b":{"parent":"abcd08ed01297cb0","name":"Reload","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint","inputCopying":{"Start":{"Reset":["abcda8093e707ebd","abcdafa4cdb2862d","abcd3ff9cb85b856"],"Start":["abcda8093e707ebd","abcdafa4cdb2862d","abcd3ff9cb85b856"],"Rotation":["abcdd1a3b6435607"],"MakeInvisible":["abcdb0c5501b3564","abcde0f71332133d"],"MakeVisible":["abcdb1d5acba0336","abcdbcddd2e81c9c"],"SetTrue":["abcd1bee3c169c0f"]}}},"abcd849c315702ac":{"parent":"abcd16b1ef2909f3","name":"Rotate hammer","factory":"[modules:/zrotateentity.class].pc_entitytype","blueprint":"[modules:/zrotateentity.class].pc_entityblueprint","properties":{"m_Geom":{"type":"SEntityTemplateReference","value":"abcdcfdabc0f0c1d"},"m_bEnabled":{"type":"bool","value":true},"m_fXAxisSpeed":{"type":"float32","value":5}}},"abcd8d0bc28a298b":{"parent":"abcd849c315702ac","name":"Reverse","factory":"[modules:/ztimerentity.class].pc_entitytype","blueprint":"[modules:/ztimerentity.class].pc_entityblueprint","properties":{"m_bEnabled":{"type":"bool","value":true},"m_nInterval":{"type":"int32","value":50}},"events":{"TimeOut":{"Stop":["abcd849c315702ac","abcd8d0bc28a298b"],"Start":["abcd1a26524e07d7","abcd964cbb153daf"],"Reset":["abcd964cbb153daf"]}}},"abcddf518d7cbc7a":{"parent":"abcd964cbb153daf","name":"Set rotation to 0","factory":"[modules:/zsetrotationentity.class].pc_entitytype","blueprint":"[modules:/zsetrotationentity.class].pc_entityblueprint","properties":{"m_Geom":{"type":"SEntityTemplateReference","value":"abcdcfdabc0f0c1d"},"m_fAngles":{"type":"SVector3","value":{"x":0,"y":0,"z":0}}}},"abcd1a26524e07d7":{"parent":"abcd8d0bc28a298b","name":"Go back","factory":"[modules:/zrotateentity.class].pc_entitytype","blueprint":"[modules:/zrotateentity.class].pc_entityblueprint","properties":{"m_Geom":{"type":"SEntityTemplateReference","value":"abcdcfdabc0f0c1d"},"m_bEnabled":{"type":"bool","value":true},"m_fXAxisSpeed":{"type":"float32","value":-5}}},"abcd964cbb153daf":{"parent":"abcd1a26524e07d7","name":"Stop","factory":"[modules:/ztimerentity.class].pc_entitytype","blueprint":"[modules:/ztimerentity.class].pc_entityblueprint","properties":{"m_bEnabled":{"type":"bool","value":true},"m_nInterval":{"type":"int32","value":50}},"events":{"TimeOut":{"Stop":["abcd1a26524e07d7","abcdaf22e10744f8","abcd964cbb153daf"],"SetAngles":["abcddf518d7cbc7a","abcdc10bd00bc080"],"SetFalse":["abcd7e64e3ce0509"]}}},"abcdb0c5501b3564":{"parent":"abcd12099373a013","name":"cylinder2","factory":"[assembly:/_pro/items/geometry/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.wl2?/cylinder2.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatenocoll.template?/compositeentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0.0017,"y":0,"z":0.052}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"bb95a0483c501b73"}}},"abcde0f71332133d":{"parent":"abcd12099373a013","name":"extractor","factory":"[assembly:/_pro/items/geometry/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.wl2?/extractor.linkedprim].pc_entitytype","blueprint":"[assembly:/templates/linkedtemplatenocoll.template?/compositeentity01.entitytemplate].pc_entityblueprint","properties":{"m_mTransform":{"type":"SMatrix43","value":{"rotation":{"x":0,"y":0,"z":0},"position":{"x":0,"y":0,"z":0}}},"m_eidParent":{"type":"SEntityTemplateReference","value":"bb95a0483c501b73"}}},"abcd9b9083ec0e06":{"parent":"bb95a0483c501b73","name":"geom","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"},"abcd15caacfec568":{"parent":"abcd9b9083ec0e06","name":"reload","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"},"abcd12099373a013":{"parent":"abcd9b9083ec0e06","name":"firing/idle","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"},"abcdaf22e10744f8":{"parent":"abcd16b1ef2909f3","name":"Rotate cylinder","factory":"[modules:/zrotateentity.class].pc_entitytype","blueprint":"[modules:/zrotateentity.class].pc_entityblueprint","properties":{"m_Geom":{"type":"SEntityTemplateReference","value":"abcdb0c5501b3564"},"m_bEnabled":{"type":"bool","value":true},"m_fYAxisSpeed":{"type":"float32","value":10}}},"abcdc10bd00bc080":{"parent":"abcdaf22e10744f8","name":"Set rotation to 0","factory":"[modules:/zsetrotationentity.class].pc_entitytype","blueprint":"[modules:/zsetrotationentity.class].pc_entityblueprint","properties":{"m_Geom":{"type":"SEntityTemplateReference","value":"abcdb0c5501b3564"},"m_fAngles":{"type":"SVector3","value":{"x":0,"y":0,"z":0}}}},"abcdac58327d5df2":{"parent":"abcd08ed01297cb0","name":"Animation  status","factory":"[modules:/zentity.class].pc_entitytype","blueprint":"[modules:/zentity.class].pc_entityblueprint"},"abcd1bee3c169c0f":{"parent":"abcd6c67e4bfdd33","name":"Reloading","factory":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint","properties":{"m_bValue":{"type":"bool","value":false}}},"abcd6c67e4bfdd33":{"parent":"abcdac58327d5df2","name":"IsReloading","factory":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint","properties":{"m_rValueEntity":{"type":"SEntityTemplateReference","value":"abcd1bee3c169c0f"}},"events":{"PollFalse":{"Poll":["abcda887e69b10d5"]}}},"abcda887e69b10d5":{"parent":"abcdac58327d5df2","name":"IsFiring","factory":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint","properties":{"m_rValueEntity":{"type":"SEntityTemplateReference","value":"abcd7e64e3ce0509"}},"events":{"PollFalse":{"Start":["abcd16b1ef2909f3"]}}},"abcd7e64e3ce0509":{"parent":"abcda887e69b10d5","name":"Firing","factory":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint","properties":{"m_bValue":{"type":"bool","value":false}}}},"propertyOverrides":[],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":[],"subType":"template","quickEntityVersion":3.1,"extraFactoryDependencies":[],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "0022A8FF34F741AE",
+	"tbluHash": "00A07001F1A87C33",
+	"rootEntity": "bb95a0483c501b73",
+	"entities": {
+		"b00c430c6d5475f9": {
+			"parent": "abcdbae760acdd77",
+			"name": "HM5ClipSpawnerEntity_casing",
+			"factory": "[modules:/zhm5clipspawnerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zhm5clipspawnerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bRandomTorque": { "type": "bool", "value": true },
+				"m_bRandomAdjustEjectDir": { "type": "bool", "value": true },
+				"m_bRandomEjectForce": { "type": "bool", "value": true },
+				"m_bUseEmitterMoveSpeed": { "type": "bool", "value": true },
+				"m_nEjectForce": { "type": "float32", "value": 1 },
+				"m_pClipFactory": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "0069E1FC622BADCA", "flag": "5F" }
+				},
+				"m_fLifeTime": { "type": "float32", "value": 120 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -0.09, "y": -0.07900000363588333, "z": 0.03 }
+					}
+				},
+				"m_eSpawnAxis": { "type": "EClipSpawnAxis", "value": "eCSA_ZNeg" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "bb95a0483c501b73", "postInit": true }
+			}
+		},
+		"41efba80cf73425e": {
+			"parent": "bb95a0483c501b73",
+			"name": "FX_E_MuzzleFlash_Pistol_Big",
+			"factory": "[assembly:/_pro/effects/templates/weapons/fx_muzzleflashes.template?/fx_e_muzzleflash_pistol_big.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/weapons/fx_muzzleflashes.template?/fx_e_muzzleflash_pistol_big.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0.21, "z": 0.05 } }
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "bb95a0483c501b73", "postInit": true }
+			}
+		},
+		"9211c86a5c056639": {
+			"parent": "bb95a0483c501b73",
+			"name": "ModularFirearmConfigurator",
+			"factory": "[modules:/zmodularfirearmconfigurator.class].pc_entitytype",
+			"blueprint": "[modules:/zmodularfirearmconfigurator.class].pc_entityblueprint",
+			"properties": { "m_rFallbackMuzzleEffect": { "type": "SEntityTemplateReference", "value": "41efba80cf73425e" } }
+		},
+		"12f1e093da8a3ee1": {
+			"parent": "bb95a0483c501b73",
+			"name": "FX_E_MuzzleFlash_ChamberSmoke_01",
+			"factory": "[assembly:/_pro/effects/templates/weapons/fx_muzzleflashes.template?/fx_e_muzzleflash_chambersmoke.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/weapons/fx_muzzleflashes.template?/fx_e_muzzleflash_chambersmoke.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.0010430000256747007, "y": 0.015297000296413898, "z": 0.045805998146533966 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "bb95a0483c501b73", "postInit": true }
+			}
+		},
+		"bb95a0483c501b73": {
+			"parent": null,
+			"name": "revolver_hero_44mag",
+			"factory": "[assembly:/_pro/items/geometry/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.wl2?/revolver_hero_44mag.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatenocoll.template?/compositeentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 1, "z": 0.5 } }
+				}
+			},
+			"inputCopying": {
+				"WeaponStartReload": { "Start": ["abcd501ebf81d21b"] },
+				"MoveHammer": { "Poll": ["abcd6c67e4bfdd33"] },
+				"ActivateShellFX": { "Activate": ["12f1e093da8a3ee1"] },
+				"HideTrash": {
+					"MakeInvisible": [
+						"abcdb1d5acba0336",
+						"abcdbcddd2e81c9c",
+						"abcdcfdabc0f0c1d",
+						"abcdb0c5501b3564",
+						"abcde0f71332133d"
+					]
+				},
+				"ShowTrash": {
+					"MakeVisible": [
+						"abcdb1d5acba0336",
+						"abcdbcddd2e81c9c",
+						"abcdcfdabc0f0c1d",
+						"abcdb0c5501b3564",
+						"abcde0f71332133d"
+					]
+				}
+			},
+			"exposedInterfaces": { "ZModularFirearmConfigurator": "9211c86a5c056639" }
+		},
+		"abcd9ee9e1e378d8": {
+			"parent": null,
+			"name": "zmultiparentspatialentity",
+			"factory": "[modules:/zmultiparentspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zmultiparentspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aParents": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"12f1e093da8a3ee1",
+						"41efba80cf73425e",
+						"abcd47c82e7499a3",
+						"abcd0562ef873d18",
+						"abcd994e4f8b7297",
+						"abcd82135799790a",
+						"abcde8e9770046b9",
+						"b00c430c6d5475f9",
+						"abcd3753c77f3d1b"
+					]
+				}
+			}
+		},
+		"abcde4de636cf026": {
+			"parent": "abcd9ee9e1e378d8",
+			"name": "gameeventlistener",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"events": { "EventOccurred": { "GetIndex": ["abcd9ee9e1e378d8"] } }
+		},
+		"abcdb1d5acba0336": {
+			"parent": "abcd15caacfec568",
+			"name": "bullets",
+			"factory": "[assembly:/_pro/items/geometry/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.wl2?/bullets.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatenocoll.template?/compositeentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": -0.0025, "y": 0, "z": 0.0244 } }
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "bb95a0483c501b73" }
+			}
+		},
+		"abcd105334b3667c": {
+			"parent": "bb95a0483c501b73",
+			"name": "animations",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"abcda8093e707ebd": {
+			"parent": "abcd501ebf81d21b",
+			"name": "Insert bullets",
+			"factory": "[modules:/ztimerentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztimerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_nInterval": { "type": "int32", "value": 300 }
+			},
+			"events": { "TimeOut": { "MakeVisible": ["abcdb1d5acba0336"], "Stop": ["abcda8093e707ebd"] } }
+		},
+		"abcd3753c77f3d1b": {
+			"parent": "abcd3ff9cb85b856",
+			"name": "HM5ClipSpawnerEntity_speedloader",
+			"factory": "[modules:/zhm5clipspawnerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zhm5clipspawnerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bRandomTorque": { "type": "bool", "value": false },
+				"m_bRandomAdjustEjectDir": { "type": "bool", "value": false },
+				"m_bRandomEjectForce": { "type": "bool", "value": false },
+				"m_bUseEmitterMoveSpeed": { "type": "bool", "value": true },
+				"m_nEjectForce": { "type": "float32", "value": 1 },
+				"m_pClipFactory": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "003A35FEA97184B5", "flag": "5F" }
+				},
+				"m_fLifeTime": { "type": "float32", "value": 120 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -0.1, "y": -0.100000363588333, "z": -0.06300000101327896 }
+					}
+				},
+				"m_eSpawnAxis": { "type": "EClipSpawnAxis", "value": "eCSA_ZNeg" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "bb95a0483c501b73", "postInit": true }
+			}
+		},
+		"abcdafa4cdb2862d": {
+			"parent": "abcd501ebf81d21b",
+			"name": "Eject casings",
+			"factory": "[modules:/ztimerentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztimerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_nInterval": { "type": "int32", "value": 120 }
+			},
+			"events": {
+				"TimeOut": {
+					"Spawn": [
+						"abcd47c82e7499a3",
+						"abcd0562ef873d18",
+						"abcd994e4f8b7297",
+						"abcd82135799790a",
+						"abcde8e9770046b9",
+						"b00c430c6d5475f9"
+					],
+					"MakeInvisible": ["abcdb1d5acba0336"],
+					"Stop": ["abcdafa4cdb2862d"]
+				}
+			}
+		},
+		"abcd568b7e2beae4": {
+			"parent": "abcd105334b3667c",
+			"name": "gameventlistener",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"events": { "EventOccurred": { "Signal": ["abcd08ed01297cb0"] } }
+		},
+		"abcd08ed01297cb0": {
+			"parent": "abcd568b7e2beae4",
+			"name": "signalonce",
+			"factory": "[modules:/zvoidsignalonceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zvoidsignalonceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_fExpireInterval": { "type": "float32", "value": 5 },
+				"m_bSignaling": { "type": "bool", "value": true }
+			},
+			"events": {
+				"Out": {
+					"Stop": [
+						"abcdafa4cdb2862d",
+						"abcda8093e707ebd",
+						"abcd3ff9cb85b856",
+						"abcda93b07649dcd",
+						"abcda5cd7fad5215",
+						"abcd4207e51a5061",
+						"abcd812d09e3a3ca",
+						"abcd7f1d543a9e3d",
+						"abcd50e30d89b86e",
+						"abcd8d0bc28a298b",
+						"abcd849c315702ac",
+						"abcd1a26524e07d7",
+						"abcd964cbb153daf",
+						"abcdaf22e10744f8"
+					],
+					"MakeInvisible": ["abcdb1d5acba0336", "abcdbcddd2e81c9c"]
+				}
+			}
+		},
+		"abcd3ff9cb85b856": {
+			"parent": "abcd501ebf81d21b",
+			"name": "Throw empty speedloader",
+			"factory": "[modules:/ztimerentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztimerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_nInterval": { "type": "int32", "value": 530 }
+			},
+			"events": { "TimeOut": { "Spawn": ["abcd3753c77f3d1b"], "Stop": ["abcd3ff9cb85b856"] } }
+		},
+		"abcd82135799790a": {
+			"parent": "abcdbae760acdd77",
+			"name": "HM5ClipSpawnerEntity_casing",
+			"factory": "[modules:/zhm5clipspawnerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zhm5clipspawnerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bRandomTorque": { "type": "bool", "value": true },
+				"m_bRandomAdjustEjectDir": { "type": "bool", "value": true },
+				"m_bRandomEjectForce": { "type": "bool", "value": true },
+				"m_bUseEmitterMoveSpeed": { "type": "bool", "value": true },
+				"m_nEjectForce": { "type": "float32", "value": 1 },
+				"m_pClipFactory": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "0069E1FC622BADCA", "flag": "5F" }
+				},
+				"m_fLifeTime": { "type": "float32", "value": 120 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -0.09, "y": -0.07900000363588333, "z": 0.05 }
+					}
+				},
+				"m_eSpawnAxis": { "type": "EClipSpawnAxis", "value": "eCSA_ZNeg" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "bb95a0483c501b73", "postInit": true }
+			}
+		},
+		"abcde8e9770046b9": {
+			"parent": "abcdbae760acdd77",
+			"name": "HM5ClipSpawnerEntity_casing",
+			"factory": "[modules:/zhm5clipspawnerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zhm5clipspawnerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bRandomTorque": { "type": "bool", "value": true },
+				"m_bRandomAdjustEjectDir": { "type": "bool", "value": true },
+				"m_bRandomEjectForce": { "type": "bool", "value": true },
+				"m_bUseEmitterMoveSpeed": { "type": "bool", "value": true },
+				"m_nEjectForce": { "type": "float32", "value": 1 },
+				"m_pClipFactory": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "0069E1FC622BADCA", "flag": "5F" }
+				},
+				"m_fLifeTime": { "type": "float32", "value": 120 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -0.09, "y": -0.07900000363588333, "z": 0.04 }
+					}
+				},
+				"m_eSpawnAxis": { "type": "EClipSpawnAxis", "value": "eCSA_ZNeg" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "bb95a0483c501b73", "postInit": true }
+			}
+		},
+		"abcd47c82e7499a3": {
+			"parent": "abcdbae760acdd77",
+			"name": "HM5ClipSpawnerEntity_casing",
+			"factory": "[modules:/zhm5clipspawnerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zhm5clipspawnerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bRandomTorque": { "type": "bool", "value": true },
+				"m_bRandomAdjustEjectDir": { "type": "bool", "value": true },
+				"m_bRandomEjectForce": { "type": "bool", "value": true },
+				"m_bUseEmitterMoveSpeed": { "type": "bool", "value": true },
+				"m_nEjectForce": { "type": "float32", "value": 1 },
+				"m_pClipFactory": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "0069E1FC622BADCA", "flag": "5F" }
+				},
+				"m_fLifeTime": { "type": "float32", "value": 120 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -0.1, "y": -0.07900000363588333, "z": 0.05 }
+					}
+				},
+				"m_eSpawnAxis": { "type": "EClipSpawnAxis", "value": "eCSA_ZNeg" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "bb95a0483c501b73", "postInit": true }
+			}
+		},
+		"abcd0562ef873d18": {
+			"parent": "abcdbae760acdd77",
+			"name": "HM5ClipSpawnerEntity_casing",
+			"factory": "[modules:/zhm5clipspawnerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zhm5clipspawnerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bRandomTorque": { "type": "bool", "value": true },
+				"m_bRandomAdjustEjectDir": { "type": "bool", "value": true },
+				"m_bRandomEjectForce": { "type": "bool", "value": true },
+				"m_bUseEmitterMoveSpeed": { "type": "bool", "value": true },
+				"m_nEjectForce": { "type": "float32", "value": 1 },
+				"m_pClipFactory": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "0069E1FC622BADCA", "flag": "5F" }
+				},
+				"m_fLifeTime": { "type": "float32", "value": 120 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -0.1, "y": -0.07900000363588333, "z": 0.04 }
+					}
+				},
+				"m_eSpawnAxis": { "type": "EClipSpawnAxis", "value": "eCSA_ZNeg" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "bb95a0483c501b73", "postInit": true }
+			}
+		},
+		"abcd994e4f8b7297": {
+			"parent": "abcdbae760acdd77",
+			"name": "HM5ClipSpawnerEntity_casing",
+			"factory": "[modules:/zhm5clipspawnerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zhm5clipspawnerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bRandomTorque": { "type": "bool", "value": true },
+				"m_bRandomAdjustEjectDir": { "type": "bool", "value": true },
+				"m_bRandomEjectForce": { "type": "bool", "value": true },
+				"m_bUseEmitterMoveSpeed": { "type": "bool", "value": true },
+				"m_nEjectForce": { "type": "float32", "value": 1 },
+				"m_pClipFactory": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "0069E1FC622BADCA", "flag": "5F" }
+				},
+				"m_fLifeTime": { "type": "float32", "value": 120 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -0.1, "y": -0.07900000363588333, "z": 0.03 }
+					}
+				},
+				"m_eSpawnAxis": { "type": "EClipSpawnAxis", "value": "eCSA_ZNeg" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "bb95a0483c501b73", "postInit": true }
+			}
+		},
+		"abcdbae760acdd77": {
+			"parent": "abcdafa4cdb2862d",
+			"name": "6",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"abcdbcddd2e81c9c": {
+			"parent": "abcd15caacfec568",
+			"name": "cylinder",
+			"factory": "[assembly:/_pro/items/geometry/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.wl2?/cylinder.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatenocoll.template?/compositeentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": -0.0025, "y": 0, "z": 0.0244 } }
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "bb95a0483c501b73" }
+			}
+		},
+		"abcdcfdabc0f0c1d": {
+			"parent": "abcd12099373a013",
+			"name": "hammer",
+			"factory": "[assembly:/_pro/items/geometry/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.wl2?/hammer.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatenocoll.template?/compositeentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "bb95a0483c501b73" }
+			}
+		},
+		"abcda5cd7fad5215": {
+			"parent": "abcdd1a3b6435607",
+			"name": "Rotate cylinder",
+			"factory": "[modules:/zrotateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrotateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Geom": { "type": "SEntityTemplateReference", "value": "abcdbcddd2e81c9c" },
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_fYAxisSpeed": { "type": "float32", "value": -10 }
+			}
+		},
+		"abcd4207e51a5061": {
+			"parent": "abcdd1a3b6435607",
+			"name": "Stop rotating",
+			"factory": "[modules:/ztimerentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztimerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_nInterval": { "type": "int32", "value": 200 }
+			},
+			"events": {
+				"TimeOut": {
+					"Stop": ["abcda93b07649dcd", "abcda5cd7fad5215", "abcd4207e51a5061"],
+					"Reset": ["abcd812d09e3a3ca"],
+					"Start": ["abcd812d09e3a3ca"]
+				}
+			}
+		},
+		"abcdd1a3b6435607": {
+			"parent": "abcd501ebf81d21b",
+			"name": "Rotate",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"inputCopying": {
+				"Rotation": {
+					"Start": ["abcda93b07649dcd", "abcda5cd7fad5215", "abcd4207e51a5061"],
+					"Reset": ["abcd4207e51a5061"]
+				}
+			}
+		},
+		"abcda93b07649dcd": {
+			"parent": "abcdd1a3b6435607",
+			"name": "Rotate bullets",
+			"factory": "[modules:/zrotateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrotateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Geom": { "type": "SEntityTemplateReference", "value": "abcdb1d5acba0336" },
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_fYAxisSpeed": { "type": "float32", "value": -10 }
+			}
+		},
+		"abcd812d09e3a3ca": {
+			"parent": "abcd4207e51a5061",
+			"name": "Wait a bit",
+			"factory": "[modules:/ztimerentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztimerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_nInterval": { "type": "int32", "value": 300 }
+			},
+			"events": {
+				"TimeOut": {
+					"Start": ["abcd7f1d543a9e3d", "abcd50e30d89b86e", "abcdc490351239d1"],
+					"Reset": ["abcdc490351239d1"],
+					"Stop": ["abcd812d09e3a3ca"]
+				}
+			}
+		},
+		"abcd7f1d543a9e3d": {
+			"parent": "abcd812d09e3a3ca",
+			"name": "Rotate bullets backwards",
+			"factory": "[modules:/zrotateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrotateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Geom": { "type": "SEntityTemplateReference", "value": "abcdb1d5acba0336" },
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_fYAxisSpeed": { "type": "float32", "value": 10 }
+			}
+		},
+		"abcd50e30d89b86e": {
+			"parent": "abcd812d09e3a3ca",
+			"name": "Rotate cylinder backwards",
+			"factory": "[modules:/zrotateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrotateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Geom": { "type": "SEntityTemplateReference", "value": "abcdbcddd2e81c9c" },
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_fYAxisSpeed": { "type": "float32", "value": 10 }
+			}
+		},
+		"abcdc490351239d1": {
+			"parent": "abcd812d09e3a3ca",
+			"name": "Stop",
+			"factory": "[modules:/ztimerentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztimerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_nInterval": { "type": "int32", "value": 200 }
+			},
+			"events": {
+				"TimeOut": {
+					"Stop": ["abcd7f1d543a9e3d", "abcd50e30d89b86e", "abcdc490351239d1"],
+					"SetAngles": ["abcdc9d92c225b49", "abcdf8616ef58022"],
+					"MakeVisible": ["abcdb0c5501b3564", "abcde0f71332133d"],
+					"MakeInvisible": ["abcdb1d5acba0336", "abcdbcddd2e81c9c"],
+					"SetFalse": ["abcd1bee3c169c0f"]
+				}
+			}
+		},
+		"abcd16b1ef2909f3": {
+			"parent": "abcd08ed01297cb0",
+			"name": "Firing",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"inputCopying": {
+				"Start": {
+					"Start": ["abcd849c315702ac", "abcd8d0bc28a298b", "abcdaf22e10744f8"],
+					"Reset": ["abcd8d0bc28a298b"],
+					"SetTrue": ["abcd7e64e3ce0509"],
+					"MakeInvisible": ["abcdb1d5acba0336", "abcdbcddd2e81c9c"]
+				}
+			}
+		},
+		"abcdc9d92c225b49": {
+			"parent": "abcdc490351239d1",
+			"name": "Fallback set rotation of bullets",
+			"factory": "[modules:/zsetrotationentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsetrotationentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Geom": { "type": "SEntityTemplateReference", "value": "abcdb1d5acba0336" },
+				"m_fAngles": { "type": "SVector3", "value": { "x": 0, "y": 0, "z": 0 } }
+			}
+		},
+		"abcdf8616ef58022": {
+			"parent": "abcdc490351239d1",
+			"name": "Fallback set rotation of cylinder",
+			"factory": "[modules:/zsetrotationentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsetrotationentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Geom": { "type": "SEntityTemplateReference", "value": "abcdbcddd2e81c9c" },
+				"m_fAngles": { "type": "SVector3", "value": { "x": 0, "y": 0, "z": 0 } }
+			}
+		},
+		"abcd501ebf81d21b": {
+			"parent": "abcd08ed01297cb0",
+			"name": "Reload",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"inputCopying": {
+				"Start": {
+					"Reset": ["abcda8093e707ebd", "abcdafa4cdb2862d", "abcd3ff9cb85b856"],
+					"Start": ["abcda8093e707ebd", "abcdafa4cdb2862d", "abcd3ff9cb85b856"],
+					"Rotation": ["abcdd1a3b6435607"],
+					"MakeInvisible": ["abcdb0c5501b3564", "abcde0f71332133d"],
+					"MakeVisible": ["abcdb1d5acba0336", "abcdbcddd2e81c9c"],
+					"SetTrue": ["abcd1bee3c169c0f"]
+				}
+			}
+		},
+		"abcd849c315702ac": {
+			"parent": "abcd16b1ef2909f3",
+			"name": "Rotate hammer",
+			"factory": "[modules:/zrotateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrotateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Geom": { "type": "SEntityTemplateReference", "value": "abcdcfdabc0f0c1d" },
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_fXAxisSpeed": { "type": "float32", "value": 5 }
+			}
+		},
+		"abcd8d0bc28a298b": {
+			"parent": "abcd849c315702ac",
+			"name": "Reverse",
+			"factory": "[modules:/ztimerentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztimerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_nInterval": { "type": "int32", "value": 50 }
+			},
+			"events": {
+				"TimeOut": {
+					"Stop": ["abcd849c315702ac", "abcd8d0bc28a298b"],
+					"Start": ["abcd1a26524e07d7", "abcd964cbb153daf"],
+					"Reset": ["abcd964cbb153daf"]
+				}
+			}
+		},
+		"abcddf518d7cbc7a": {
+			"parent": "abcd964cbb153daf",
+			"name": "Set rotation to 0",
+			"factory": "[modules:/zsetrotationentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsetrotationentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Geom": { "type": "SEntityTemplateReference", "value": "abcdcfdabc0f0c1d" },
+				"m_fAngles": { "type": "SVector3", "value": { "x": 0, "y": 0, "z": 0 } }
+			}
+		},
+		"abcd1a26524e07d7": {
+			"parent": "abcd8d0bc28a298b",
+			"name": "Go back",
+			"factory": "[modules:/zrotateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrotateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Geom": { "type": "SEntityTemplateReference", "value": "abcdcfdabc0f0c1d" },
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_fXAxisSpeed": { "type": "float32", "value": -5 }
+			}
+		},
+		"abcd964cbb153daf": {
+			"parent": "abcd1a26524e07d7",
+			"name": "Stop",
+			"factory": "[modules:/ztimerentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztimerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_nInterval": { "type": "int32", "value": 50 }
+			},
+			"events": {
+				"TimeOut": {
+					"Stop": ["abcd1a26524e07d7", "abcdaf22e10744f8", "abcd964cbb153daf"],
+					"SetAngles": ["abcddf518d7cbc7a", "abcdc10bd00bc080"],
+					"SetFalse": ["abcd7e64e3ce0509"]
+				}
+			}
+		},
+		"abcdb0c5501b3564": {
+			"parent": "abcd12099373a013",
+			"name": "cylinder2",
+			"factory": "[assembly:/_pro/items/geometry/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.wl2?/cylinder2.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatenocoll.template?/compositeentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0.0017, "y": 0, "z": 0.052 } }
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "bb95a0483c501b73" }
+			}
+		},
+		"abcde0f71332133d": {
+			"parent": "abcd12099373a013",
+			"name": "extractor",
+			"factory": "[assembly:/_pro/items/geometry/firearms/frames/revolver_hero_44mag/revolver_hero_44mag.wl2?/extractor.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatenocoll.template?/compositeentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "bb95a0483c501b73" }
+			}
+		},
+		"abcd9b9083ec0e06": {
+			"parent": "bb95a0483c501b73",
+			"name": "geom",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"abcd15caacfec568": {
+			"parent": "abcd9b9083ec0e06",
+			"name": "reload",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"abcd12099373a013": {
+			"parent": "abcd9b9083ec0e06",
+			"name": "firing/idle",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"abcdaf22e10744f8": {
+			"parent": "abcd16b1ef2909f3",
+			"name": "Rotate cylinder",
+			"factory": "[modules:/zrotateentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrotateentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Geom": { "type": "SEntityTemplateReference", "value": "abcdb0c5501b3564" },
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_fYAxisSpeed": { "type": "float32", "value": 10 }
+			}
+		},
+		"abcdc10bd00bc080": {
+			"parent": "abcdaf22e10744f8",
+			"name": "Set rotation to 0",
+			"factory": "[modules:/zsetrotationentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsetrotationentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Geom": { "type": "SEntityTemplateReference", "value": "abcdb0c5501b3564" },
+				"m_fAngles": { "type": "SVector3", "value": { "x": 0, "y": 0, "z": 0 } }
+			}
+		},
+		"abcdac58327d5df2": {
+			"parent": "abcd08ed01297cb0",
+			"name": "Animation  status",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"abcd1bee3c169c0f": {
+			"parent": "abcd6c67e4bfdd33",
+			"name": "Reloading",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": false } }
+		},
+		"abcd6c67e4bfdd33": {
+			"parent": "abcdac58327d5df2",
+			"name": "IsReloading",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rValueEntity": { "type": "SEntityTemplateReference", "value": "abcd1bee3c169c0f" } },
+			"events": { "PollFalse": { "Poll": ["abcda887e69b10d5"] } }
+		},
+		"abcda887e69b10d5": {
+			"parent": "abcdac58327d5df2",
+			"name": "IsFiring",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rValueEntity": { "type": "SEntityTemplateReference", "value": "abcd7e64e3ce0509" } },
+			"events": { "PollFalse": { "Start": ["abcd16b1ef2909f3"] } }
+		},
+		"abcd7e64e3ce0509": {
+			"parent": "abcda887e69b10d5",
+			"name": "Firing",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": false } }
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

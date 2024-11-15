@@ -33,7 +33,8 @@
 			"image": "options/inventory/replace.png",
 			"type": "checkbox",
 			"enabledByDefault": false,
-			"contentFolders": ["options/inventory/replace"]
+			"contentFolders": ["options/inventory/replace"],
+			"thumbs": ["ConsoleCmd OnlineResources_Disable 1"]
 		},
 		{
 			"name": "Replace El matador",
@@ -41,7 +42,8 @@
 			"image": "options/inventory/replace.png",
 			"type": "checkbox",
 			"enabledByDefault": false,
-			"contentFolders": ["options/inventory/matador"]
+			"contentFolders": ["options/inventory/matador"],
+			"thumbs": ["ConsoleCmd OnlineResources_Disable 1"]
 		},
 		{
 			"name": "Add-On",

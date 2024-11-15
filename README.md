@@ -6,4 +6,4 @@ Adds a revolver to the game, either replacing the striker or as an add-on
 
 ---
 
-`invalid.44magnum` v2.2.1, by invalid. This README was automatically generated from the mod's manifest.
+`invalid.44magnum` v2.2.2, by invalid. This README was automatically generated from the mod's manifest.

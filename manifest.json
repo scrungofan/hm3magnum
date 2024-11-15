@@ -50,7 +50,12 @@
 			"tooltip": "Adds the revolver as a new item",
 			"image": "options/inventory/addon.png",
 			"type": "checkbox",
-			"enabledByDefault": false,
+			"enabledByDefault": false
+		},
+		{
+			"name": "Mod support for add-on",
+			"type": "conditional",
+			"condition": "not (\"MLuka47.Expansion\" in config.loadOrder) and \"Add-On\" in config.modOptions(\"invalid.44magnum\")",
 			"contentFolders": ["options/inventory/addon"]
 		}
 	],

@@ -1,10 +1,10 @@
 {
-	"version": "2.2.2",
+	"version": "2.2.3",
 	"id": "invalid.44magnum",
 	"name": "Striker .44 Magnum",
 	"description": "Adds a revolver to the game, either replacing the striker or as an add-on",
 	"authors": ["invalid"],
-	"frameworkVersion": "2.33.20",
+	"frameworkVersion": "2.33.42",
 	"localisation": {
 		"english": {
 			"ui_firearms_hero_revolver_44magnum_name": "Striker .44 Magnum",
